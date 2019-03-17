@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="CFC637B1-B930-1C27-6CBF-6F82BED889D5" mainViewID="FDDC455A-6D77-2F14-2E14-8A98A536E808">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:44:05 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF8659CA-D995-BD7C-D3DC-B7B1E1049BEC" name="TYP_OBIEKTU">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>94D3F269-8579-EFBF-CB45-9CBB6E7C1AE7</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_TYPU_OBIEKTU" id="65836C9D-0081-94F2-2544-4007CAB142D6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>19A9C20B-2ADB-FAAA-7466-2FDD18CCE2A6</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="5A2CB670-8EA4-FFBC-D40B-31307AA1BE88">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>6E2B7E0B-9BDE-EA73-4976-BB16B9BCE47D</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A3920C1-1D09-A507-67FE-3725C5C99938" name="TYP_OBIEKTU_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>E901E11A-B0A2-915A-C48F-77A8797889B7</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65836C9D-0081-94F2-2544-4007CAB142D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A26BACF-2FA7-F1DC-79AA-DD34395C0313" name="DEFINICJE_WLASCIWOSCI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>EF832B79-5F81-0D86-74DE-AB00D25B8BD0</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_WLASCIWOSCI" id="9200D216-7088-256E-8206-EEA013D8BAF2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>92FE3B35-9263-A02E-1B53-E175F2596971</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="69D62411-B266-16A2-809D-7D760E02D311">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>FBAD3897-A9E0-1FBE-571A-CD1D6844C860</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CZY_OPCJONALNA" id="D114CCDC-4DFD-D203-E87B-1379D256E1A2">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>C46F5E12-42F0-5EA7-DE40-2D28A7D5609E</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYP_DANYCH" id="8470DD07-D282-B188-9F13-37E2FFA8A3DB">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>A7C7AD6E-2971-3346-824B-18ED1257E341</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="731676DE-A81E-1A3D-C564-EEBBD3EF6593" name="DEFINICJE_WLASCIWOSCI_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>DCBDFF1E-D641-F126-0304-E3D6839F91CB</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9200D216-7088-256E-8206-EEA013D8BAF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

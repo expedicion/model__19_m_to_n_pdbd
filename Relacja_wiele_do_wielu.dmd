@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Relacja_wiele_do_wielu" id="FFAC12A8-355D-CDFB-BF6C-35F72F7CF6AB" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 17:44:05 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FFAC12A8-355D-CDFB-BF6C-35F72F7CF6AB</designId>
+</OSDM_Design>

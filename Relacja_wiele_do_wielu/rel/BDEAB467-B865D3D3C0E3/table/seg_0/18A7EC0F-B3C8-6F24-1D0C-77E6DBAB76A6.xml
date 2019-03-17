@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A7EC0F-B3C8-6F24-1D0C-77E6DBAB76A6" name="WLASCIWOSCI_TYPU_OBIEKTU">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>767FD25E-54E8-5368-19ED-0FDF985BF463</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KOD_TYPU_OBIEKTU" id="1E120673-0576-0729-AAD8-5BE508869466">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>43CF99E2-109F-2DF8-F608-C9756E182534</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DB8555E-6437-CD00-F146-11DEBE154293" referredColumn="65836C9D-0081-94F2-2544-4007CAB142D6"/>
+</associations>
+</Column>
+<Column name="KOD_WLASCIWOSCI" id="E2FB078F-458E-7ED1-75BB-FDE90178C259">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>4E3D12BA-4709-022F-59D1-8480E18901AB</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4D1EE14-937E-5B71-F46E-282FA144B44C" referredColumn="9200D216-7088-256E-8206-EEA013D8BAF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15A25900-470D-3BEB-1D13-C8B265884053" name="WLASCIWOSCI_TYPU_OBIEKTU_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>9AAC383C-3807-9EDD-3DCC-21691F78B9F6</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FB078F-458E-7ED1-75BB-FDE90178C259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2F472BF-E2AA-291E-93DD-4A3F67417546" name="WLASCIWOSCI_TYPU_OBIEKTU_TYP_OBIEKTU_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>ABAA1720-BF86-4378-0C99-D1612B310A8A</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E120673-0576-0729-AAD8-5BE508869466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ED90E7A-88DA-2A74-48FB-2300428E1E29" name="WLASCIWOSCI_TYPU_OBIEKTU_DEFINICJE_WLASCIWOSCI_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>F3859C5A-9EBD-FEA4-812E-D9997955BDC7</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2FB078F-458E-7ED1-75BB-FDE90178C259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

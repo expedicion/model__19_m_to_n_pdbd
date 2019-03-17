@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94D3F269-8579-EFBF-CB45-9CBB6E7C1AE7" name="TYP_OBIEKTU">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:48:09 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_OBIEKTU" id="19A9C20B-2ADB-FAAA-7466-2FDD18CCE2A6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:48:26 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="6E2B7E0B-9BDE-EA73-4976-BB16B9BCE47D">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:48:45 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E901E11A-B0A2-915A-C48F-77A8797889B7" name="TYP_OBIEKTU PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:48:42 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19A9C20B-2ADB-FAAA-7466-2FDD18CCE2A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

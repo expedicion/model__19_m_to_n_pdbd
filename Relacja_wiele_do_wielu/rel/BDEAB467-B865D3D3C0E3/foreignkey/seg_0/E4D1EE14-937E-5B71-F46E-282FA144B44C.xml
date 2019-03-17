@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4D1EE14-937E-5B71-F46E-282FA144B44C" containerWithKeyObject="18A7EC0F-B3C8-6F24-1D0C-77E6DBAB76A6" localFKIndex="9ED90E7A-88DA-2A74-48FB-2300428E1E29" name="WLASCIWOSCI_TYPU_OBIEKTU_DEFINICJE_WLASCIWOSCI_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>F3859C5A-9EBD-FEA4-812E-D9997955BDC7</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<referredTableLongName>DEFINICJE_WLASCIWOSCI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A26BACF-2FA7-F1DC-79AA-DD34395C0313</referredTableID>
+<keyObject>731676DE-A81E-1A3D-C564-EEBBD3EF6593</keyObject>
+<referredKeyID>731676DE-A81E-1A3D-C564-EEBBD3EF6593</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KOD_WLASCIWOSCI</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

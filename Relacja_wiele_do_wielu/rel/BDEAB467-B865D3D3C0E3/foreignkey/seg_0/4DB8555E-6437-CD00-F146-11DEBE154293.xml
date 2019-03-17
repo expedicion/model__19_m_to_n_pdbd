@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4DB8555E-6437-CD00-F146-11DEBE154293" containerWithKeyObject="18A7EC0F-B3C8-6F24-1D0C-77E6DBAB76A6" localFKIndex="D2F472BF-E2AA-291E-93DD-4A3F67417546" name="WLASCIWOSCI_TYPU_OBIEKTU_TYP_OBIEKTU_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:52:01 UTC</createdTime>
+<generatorID>ABAA1720-BF86-4378-0C99-D1612B310A8A</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<referredTableLongName>TYP_OBIEKTU</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF8659CA-D995-BD7C-D3DC-B7B1E1049BEC</referredTableID>
+<keyObject>4A3920C1-1D09-A507-67FE-3725C5C99938</keyObject>
+<referredKeyID>4A3920C1-1D09-A507-67FE-3725C5C99938</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KOD_TYPU_OBIEKTU</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

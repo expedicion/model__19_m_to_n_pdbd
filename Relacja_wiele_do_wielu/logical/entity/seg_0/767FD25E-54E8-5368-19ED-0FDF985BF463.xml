@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="767FD25E-54E8-5368-19ED-0FDF985BF463" name="WLASCIWOSCI_TYPU_OBIEKTU">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:48:58 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_TYPU_OBIEKTU" id="43CF99E2-109F-2DF8-F608-C9756E182534">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:50:57 UTC</createdTime>
+<generatorID>ABAA1720-BF86-4378-0C99-D1612B310A8A</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<referedAttribute>19A9C20B-2ADB-FAAA-7466-2FDD18CCE2A6</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KOD_WLASCIWOSCI" id="4E3D12BA-4709-022F-59D1-8480E18901AB">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:51:22 UTC</createdTime>
+<generatorID>F3859C5A-9EBD-FEA4-812E-D9997955BDC7</generatorID>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<referedAttribute>92FE3B35-9263-A02E-1B53-E175F2596971</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AAC383C-3807-9EDD-3DCC-21691F78B9F6" name="WLASCIWOSCI_TYPU_OBIEKTU PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:50:57 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E3D12BA-4709-022F-59D1-8480E18901AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

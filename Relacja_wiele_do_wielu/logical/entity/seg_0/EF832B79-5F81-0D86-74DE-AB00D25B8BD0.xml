@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF832B79-5F81-0D86-74DE-AB00D25B8BD0" name="DEFINICJE_WLASCIWOSCI">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:49:21 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KOD_WLASCIWOSCI" id="92FE3B35-9263-A02E-1B53-E175F2596971">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:49:44 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="FBAD3897-A9E0-1FBE-571A-CD1D6844C860">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:50:01 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CZY_OPCJONALNA" id="C46F5E12-42F0-5EA7-DE40-2D28A7D5609E">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:50:16 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYP_DANYCH" id="A7C7AD6E-2971-3346-824B-18ED1257E341">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:50:39 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCBDFF1E-D641-F126-0304-E3D6839F91CB" name="DEFINICJE_WLASCIWOSCI PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:49:56 UTC</createdTime>
+<ownerDesignName>Relacja_wiele_do_wielu</ownerDesignName>
+<engineerTo>
+<item key="BDEAB467-3609-E09B-044F-B865D3D3C0E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92FE3B35-9263-A02E-1B53-E175F2596971</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
